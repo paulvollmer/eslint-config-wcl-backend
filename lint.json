@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "extends": "loopback",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "strict": "warn",
+    "comma-dangle": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "consistent-this": ["error", "self"],
+    "max-len": ["error", 120],
+    "camelcase": ["error", {"properties": "never"}],
+    "no-unused-expressions": "off",
+    "one-var": ["error", "never"],
+    "linebreak-style": [ "error", "unix" ]
+    }
+}

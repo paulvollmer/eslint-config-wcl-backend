@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-wcl-backend",
+  "version": "0.1.0",
+  "description": "eslint config used in wcl",
+  "main": "lint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "loopback"
+  ],
+  "author": "xavierchow",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-loopback": "^8.0.0"
+  }
+}
