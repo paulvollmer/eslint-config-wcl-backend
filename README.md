@@ -2,6 +2,9 @@
 
 WCL's ESlint shareable configs used for backend, it's extended from [eslint-config-loopback](https://github.com/strongloop/eslint-config-loopback).
 
+## Prerequisite
+ESlint@3.18 or later.
+
 ## Usage
 
 ```
