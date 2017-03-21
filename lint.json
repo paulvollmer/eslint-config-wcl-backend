@@ -5,9 +5,6 @@
     "mocha": true
   },
   "extends": "loopback",
-  "parserOptions": {
-    "sourceType": "module"
-  },
   "rules": {
     "strict": "warn",
     "comma-dangle": ["error", "never"],
