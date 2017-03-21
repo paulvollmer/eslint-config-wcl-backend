@@ -11,10 +11,15 @@ ESlint@3.18 or later.
 npm i -D eslint eslint-config-wcl-backend
 ```
 
-Create .eslintrc including,
+Create .eslintrc as following,
 
 ```
 {
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
   "extended": "wcl-backend"
 }
 ```
