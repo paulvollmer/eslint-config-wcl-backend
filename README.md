@@ -20,7 +20,7 @@ Create .eslintrc as following,
     "es6": true,
     "mocha": true
   },
-  "extended": "wcl-backend"
+  "extends": "wcl-backend"
 }
 ```
 
@@ -29,7 +29,7 @@ Create .eslintrc as following,
 You can override the rules by adding the `rules`.
 ```
 {
-  "extended": "wcl-backend",
+  "extends": "wcl-backend",
   "rules": {
     "eqeqeq": "off"
   }
