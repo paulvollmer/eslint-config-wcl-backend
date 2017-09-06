@@ -15,11 +15,6 @@ Create .eslintrc as following,
 
 ```
 {
-  "env": {
-    "node": true,
-    "es6": true,
-    "mocha": true
-  },
   "extends": "wcl-backend"
 }
 ```
