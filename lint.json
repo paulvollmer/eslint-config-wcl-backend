@@ -5,6 +5,9 @@
     "mocha": true
   },
   "extends": "loopback",
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
   "rules": {
     "strict": "warn",
     "comma-dangle": ["error", "never"],
