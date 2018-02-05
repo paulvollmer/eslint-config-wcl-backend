@@ -12,6 +12,6 @@ lint-json:
 	@$(BIN)/jsonlint -q $(LINT_SRC_JSON)
 lint-fix:
 	@echo "Linting JavaScript and try to fix..."
-	@$(BIN)/eslint --fix $(LINT_SRC)
+	@$(BIN)/eslint --fix $(LINT_SRC_JS)
 
 .PHONY: lint lint-js lint-json lint-fix

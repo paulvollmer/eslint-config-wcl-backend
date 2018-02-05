@@ -11,7 +11,14 @@
     "loopback",
     "wcl"
   ],
-  "author": "xavierchow",
+  "author": {
+    "name": "Wiredcraft",
+    "url": "https://wiredcraft.com"
+  },
+  "contributors": [
+    "xavierchow",
+    "paulvollmer"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

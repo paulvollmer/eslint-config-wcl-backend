@@ -31,6 +31,14 @@ You can override the rules by adding the `rules`.
 }
 ```
 
+## Include Make targets
+
+You can include our common make targets (`make lint`, `make lint-fix`...) by adding the following line to your `Makefile`.
+
+```
+include node_modules/eslint-config-wcl-backend/setup.mk
+```
+
 ## License
 
-MIT
+[MIT](LICENSE)
