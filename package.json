@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wcl-backend",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "eslint config used in WCL",
   "main": "lint.json",
   "scripts": {
@@ -11,13 +11,20 @@
     "loopback",
     "wcl"
   ],
-  "author": "xavierchow",
+  "author": {
+    "name": "Wiredcraft",
+    "url": "https://wiredcraft.com"
+  },
+  "contributors": [
+    "xavierchow",
+    "paulvollmer"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wiredcraft/eslint-config-wcl-backend"
   },
   "dependencies": {
-    "eslint-config-loopback": "^8.0.0"
+    "eslint-config-loopback": "^10.0.0"
   }
 }
